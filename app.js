@@ -6,6 +6,7 @@ courseRoster.config(function($stateProvider) {
     views: {
       'header': {
         templateUrl: 'partials/header.html',
+        controller: 'HeadersCtrl'
       },
       'body': {
         templateUrl: "partials/home.html"
@@ -17,7 +18,8 @@ courseRoster.config(function($stateProvider) {
     url: "/courses",
     views: {
       'header': {
-        templateUrl: 'partials/header.html'
+        templateUrl: 'partials/header.html',
+        controller: 'HeadersCtrl'
       },
       'body': {
         templateUrl: "partials/courses.html",
@@ -30,7 +32,8 @@ courseRoster.config(function($stateProvider) {
     url: "/:courseId",
     views: {
       'header': {
-        templateUrl: 'partials/header.html'
+        templateUrl: 'partials/header.html',
+        controller: 'HeadersCtrl'
       },
       'body': {
         templateUrl: "partials/courses.students.html",
