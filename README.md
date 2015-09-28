@@ -1,7 +1,7 @@
 Student Roster
 ==========
 
-By Phil Shannon && Deron Johnson, 23-Sep-2015
+By Phil Shannon && Kelli Sommerdyke, 23-Sep-2015
 
 Keep track of courses and the students that are in those classes.
 
@@ -21,4 +21,4 @@ JavaScript, Angular, HTML, Bootstrap, CSS
 
 License
 ----------
-MIT License, Copyright (c) 2015 Phil Shannon && Deron Johnson
+MIT License, Copyright (c) 2015 Phil Shannon && Kelli Sommerdyke
