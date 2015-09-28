@@ -16,8 +16,8 @@ courseRoster.directive("changeClass", function() {
 courseRoster.directive("sampleCourse", function() {
   return {
     scope:{
-      courseName:"@",
+      courseName:"=",
     },
-    template: '<div>{{courseName}}</div>'
+    template: '<input type="text" ng-model="courseName">'
   }
 });
