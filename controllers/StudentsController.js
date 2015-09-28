@@ -4,5 +4,9 @@ courseRoster.controller('StudentsCtrl', function StudentsCtrl($scope, $statePara
     $scope.course.students.push({ name: $scope.studentName });
     $scope.studentName = null;
   }
-  $scope.ctrlCourseName = "kites"
+  $scope.ctrlCourseName = "kites";
+
+  $scope.alert = function(message) {
+    alert(message);
+  }
 });

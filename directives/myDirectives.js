@@ -13,11 +13,12 @@ courseRoster.directive("changeClass", function() {
   }
 });
 
-courseRoster.directive("sampleCourse", function() {
+courseRoster.directive("alertUser", function() {
   return {
     scope:{
-      courseName:"=",
+      alert:"&",
     },
-    template: '<input type="text" ng-model="courseName">'
+    template: '<input type="text" ng-model="value">' +
+      '<button class="btn btn-danger" ng-click="alert({message:value})">Alert!</button>'
   }
 });
